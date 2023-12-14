@@ -2,7 +2,7 @@
 
 Welcome to the English to English Dictionary web application repository! This repository contains the frontend JavaScript code for an interactive dictionary website. The application provides users with the ability to search for English words, fetch their definitions, phonetics, synonyms, antonyms, and other word-related details from an API.
 
-![Dictionary Web App Preview]([example_image.png](https://i.postimg.cc/tTnhrKTj/Lexi-Verse-Your-Ultimate-English-to-English-Dictionary.png))
+![Dictionary Web App Preview](https://i.postimg.cc/tTnhrKTj/Lexi-Verse-Your-Ultimate-English-to-English-Dictionary.png)
 *Example of the English to English Dictionary Web Application*
 
 ## Features
