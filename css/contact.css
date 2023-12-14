@@ -1,0 +1,273 @@
+/* Style for the whole about section */
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Text color */
+}
+
+/* Style for the about content */
+.about-content {
+  flex: 1;
+  max-width: 50%;
+  text-align: justify;
+}
+
+.about-content h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Style for the parent company div */
+.parent-company {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: 40%;
+}
+
+/* Style for the company logo */
+.company-logo img {
+  width: 150px; /* Adjust the size of the logo */
+  margin-right: 20px;
+}
+
+/* Style for the company info */
+.company-info {
+  flex: 1;
+  text-align: justify;
+}
+
+.company-info h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.company-info p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.company-info a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Media query for responsive design (adjust as needed) */
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    padding: 30px;
+  }
+  .about-content,
+  .parent-company {
+    max-width: 100%;
+    text-align: justify;
+  }
+  .about-content h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .company-logo img {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+/* Contact form section */
+.contact-form-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px;
+  background-color: #f4f4f4; /* Background color */
+  color: #333; /* Text color */
+}
+
+/* Feature div */
+.feature {
+  flex: 1;
+  max-width: 40%;
+}
+
+.feature h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.feature p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/* Contact form */
+.contact-form {
+  flex: 1;
+  max-width: 40%;
+  background-color: #fff; /* Form background color */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.contact-form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333; /* Button background color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button[type="submit"]:hover {
+  background-color: #555; /* Button hover color */
+}
+
+/* Media query for responsive design (adjust as needed) */
+
+@media (max-width: 768px) {
+  .contact-form-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .feature,
+  .contact-form {
+    max-width: 100%;
+  }
+  .contact-form{
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main section styling */
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #1f1f1f; /* Dark background color */
+  color: #fff; /* Text color */
+}
+
+/* Contact info styling */
+
+.contact-info h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.contact-info img {
+  margin-right: 10px;
+  max-width: 24px; /* Adjust as needed */
+}
+/* Social media div styling */
+
+
+.social-media h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Social icons styling */
+.social-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-icons img {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
+}
+
+/* Hover effect for social media links */
+.social-icons a:hover {
+  color: #ffd700; /* Change link color on hover */
+}
+
+@media screen and (max-width: 768px) {
+    .contact-section{
+        flex-direction: column;
+    }
+    .contact-info, .social-media{
+        width: 86%;
+        margin: 0 auto;
+    }
+    .social-media{
+        margin-top: 20px;
+    }
+    .contact-info p,
+    .social-icons a{
+        padding-left: 20px;
+    }
+}

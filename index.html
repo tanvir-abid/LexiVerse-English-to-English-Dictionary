@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the 'English to English Dictionary' – your comprehensive online resource for accurate word meanings, synonyms, antonyms, and detailed definitions.">
+    <meta name="keywords" content="LexiVerse, LexiVerse dictionary, English dictionary, Online dictionary, English definition, Word meanings, Thesaurus, Vocabulary, Dictionary app, Word reference, Lexicon, Synonyms and antonyms">
+    <meta name="author" content="Tanvir Abid, a versatile tech enthusiast skilled in HTML, CSS, vanilla JavaScript, and Python. With a passion for crafting captivating web experiences, I specialize in creating dynamic and user-friendly interfaces. As an adept problem solver, I thrive on developing innovative solutions and love sharing knowledge about programming and web development through engaging content.">
+    
+    <!-- Search Engine Meta Tags -->
+    <meta property="og:title" content="LexiVerse: Your Ultimate English-to-English Dictionary">
+    <meta property="og:description" content="Explore the 'English to English Dictionary' – your comprehensive online resource for accurate word meanings, synonyms, antonyms, and detailed definitions.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://BcsBankSuccess.com">
+    <meta property="og:image" content="https://i.postimg.cc/tTnhrKTj/Lexi-Verse-Your-Ultimate-English-to-English-Dictionary.png">
+    <meta property="og:image:alt" content="LexiVerse: English to English Dictionary">
+    <meta property="og:site_name" content="LexiVerse">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="LexiVerse: Your Ultimate English-to-English Dictionary">
+    <meta name="twitter:description" content="Explore the 'English to English Dictionary' – your comprehensive online resource for accurate word meanings, synonyms, antonyms, and detailed definitions.">
+    <meta name="twitter:image" content="https://i.postimg.cc/tTnhrKTj/Lexi-Verse-Your-Ultimate-English-to-English-Dictionary.png">
+    <meta name="twitter:image:alt" content="LexiVerse: English to English Dictionary">
+    <!-- Open Graph Meta Tags for Facebook -->
+    <meta property="og:title" content="LexiVerse: Your Ultimate English-to-English Dictionary">
+    <meta property="og:description" content="Explore the 'English to English Dictionary' – your comprehensive online resource for accurate word meanings, synonyms, antonyms, and detailed definitions.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://BcsBankSuccess.com">
+    <meta property="og:image" content="https://i.postimg.cc/tTnhrKTj/Lexi-Verse-Your-Ultimate-English-to-English-Dictionary.png">
+    <meta property="og:image:alt" content="LexiVerse: English to English Dictionary">
+    <meta property="og:site_name" content="LexiVerse">
+    
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favIcon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favIcon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favIcon/favicon-16x16.png">
+
+
+    <title>LexiVerse: Your Ultimate English-to-English Dictionary</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Navigation bar -->
+<div class="navbar">
+    <div class="navbar-title">
+        <img src="img/language-learning.png" alt="" srcset="">
+        <div class="title-text">
+            <h1>LexiVerse</h1>
+            <p id="parent-company">By BcsBankSuccess.com</p>
+        </div>
+    </div>
+    <ul class="navbar-nav">
+        <li class="navbar-nav-item active"><a href="#" class="test-link">Home</a></li>
+        <li class="navbar-nav-item" id="word-of-the-way"><a href="#" class="test-link">Word Of The Day</a></li>
+        <li class="navbar-nav-item"><a href="contact.html">Contact Us</a></li>
+    </ul>
+</div>
+
+ <div class="main-container">
+    <section class="dictionary-header">
+        <h1>Dictionary</h1>
+        <p>Welcome to the online dictionary. Find word meanings and definitions here.</p>
+        <form id="search-form">
+            <!-- <label for="search">Search for a word:</label> -->
+            <input type="search" id="search" name="search" placeholder="Enter a word">
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+
+<section class="result-container">
+    <div id="result-container"></div>
+</section>
+
+ </div>
+
+
+
+
+
+
+
+
+
+
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Modal Header</h2>
+        </div>
+        <div class="modal-body">
+            <p>Modal body text goes here.</p>
+        </div>
+        <div class="modal-footer">
+            <button id="searchThisWord">Search word</button>
+            <button id="closeModalBtn">Close</button>
+        </div>
+    </div>
+</div>
+
+<div class="floatDiv">
+    <div class="explore-apps">
+        <a href="#">Explore Other Apps</a>
+    </div>
+</div>
+
+
+<footer>
+    <div class="credit">
+        <p>All Rights Reserved by <a href="index.html">E2E Disctionary</a> &copy; <span id="currentYear"></span></p>
+    </div>
+    <div class="poweredBy">
+        <p>Powered By</p>
+        <h3><a href="#">BcsBankSuccess.Com</a></h3>
+    </div>
+</footer>
+
+<div class="loader-container">
+    <div class="loader"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script type="text/javascript" src="js/basic.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script type="module" src="js/dbScript.js"></script>
+</body>
+</html>
